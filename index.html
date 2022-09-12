@@ -48,19 +48,21 @@
         <table cellspacing="5" cellpadding="5">
           <tr>
             <td><label for="name">Name </label></td>
-            <td><input type="text" id="name" name="nm" /></td>
+            <td><input type="text" id="name" name="nm" required /></td>
           </tr>
           <tr>
             <td><label for="email">Email ID </label></td>
-            <td><input type="email" id="email" name="em" /></td>
+            <td><input type="email" id="email" name="em" required /></td>
           </tr>
           <tr>
             <td><label for="password">Password </label></td>
-            <td><input type="password" id="password" name="pass" /></td>
+            <td>
+              <input type="password" id="password" name="pass" required />
+            </td>
           </tr>
           <tr>
             <td><label for="dob">Date Of Birth </label></td>
-            <td><input type="date" id="dob" name="DOB" /></td>
+            <td><input type="date" id="dob" name="DOB" required /></td>
           </tr>
           <tr>
             <td align="right">
@@ -79,5 +81,5 @@
     <h2>User Entries</h2>
     <div id="user-entries"></div>
   </center>
-  <script type="text/javascript" src="./registration.js"></script>
+  <script type="text/javascript" src="registration.js"></script>
 </body>
